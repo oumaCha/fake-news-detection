@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# AI models and checkpoints
+checkpoints/
+checkpoint-*/
+models/
+saved_model/
+*.safetensors
+*.pt
+*.pth
+*.bin
+
+# Datasets
+datasets/
+data/
+*.csv
+*.tsv
+
+# Frontend
+node_modules/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
